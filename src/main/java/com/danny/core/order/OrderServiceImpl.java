@@ -6,7 +6,7 @@ import com.danny.core.member.Member;
 import com.danny.core.member.MemberRepository;
 import com.danny.core.member.MemoryMemberRepository;
 
-public class OderServiceImpl implements OrderService {
+public class OrderServiceImpl implements OrderService {
 
     private MemberRepository memberRepository = new MemoryMemberRepository();
     private DiscountPolicy discountPolicy = new FixDiscountPolicy();
