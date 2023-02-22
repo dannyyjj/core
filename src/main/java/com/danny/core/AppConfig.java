@@ -19,7 +19,6 @@ public class AppConfig {
         return new MemoryMemberRepository();
     }
 
-
     public OrderService orderService() {
         return new OrderServiceImpl(
                 memberRepository(),
