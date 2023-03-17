@@ -2,7 +2,9 @@ package com.danny.core.discount;
 
 import com.danny.core.member.Grade;
 import com.danny.core.member.Member;
+import org.springframework.stereotype.Component;
 
+@Component
 public class RateDiscountPolicy implements DiscountPolicy {
 
     private int dicountPercent = 10;
